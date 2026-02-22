@@ -1,0 +1,7 @@
+#Required, this is how data is stored
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  database: minecraft_database
+  username: minecraft_database_user
+  password: database_password
