@@ -1,0 +1,18 @@
+prefix: '&f&l[&c&lOz&e&lEconomy&f&l] '
+
+baltop:
+  refresh-seconds: 30
+  max-entries: 10
+
+# Avaliable placeholders: ${amount} , ${player}, ${rank}
+messages:
+  no-permission: '&cYou do not have permission to do this!'
+  invalid-amount: '&cInvalid amount!'
+  invalid-args: '&cInvalid arguments!'
+  invalid-player: '&cPlayer not found!'
+  payed-player: '&aYou have given &f${player} &e${amount}'
+  received-money: '&aYou have received &e${amount} &afrom &f${player} '
+  not-enough-money: '&cYou do not have enough money!'
+  baltop-empty: '&cNo balance data available yet.'
+  baltop-header: '&6Top Balances:'
+  baltop-line: '&e#${rank} &f${player} &7- &a${amount}'

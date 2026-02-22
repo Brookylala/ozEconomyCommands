@@ -1,0 +1,38 @@
+name: ozEconomyCommands
+version: '1.0'
+main: net.ozanarchy.ozEconomyCommands.OzEconomyCommands
+api-version: '1.21'
+authors: [ Brookylala ]
+commands:
+  balance:
+    description: Check your balance
+    usage: /balance [player]
+    aliases: ["bal"]
+  pay:
+    description: Pay money to a player
+    usage: /pay <player> <amount>
+  baltop:
+    description: Show top balances
+    usage: /baltop
+  admineco:
+    description: Admin economy controls
+    usage: /admineco <add|remove> <player> <amount>
+permissions:
+  ozecocommands.balance:
+    description: Allows checking your own balance
+    default: true
+  ozecocommands.balance.others:
+    description: Allows checking other players' balances
+    default: op
+  ozecocommands.pay:
+    description: Allows paying other players
+    default: true
+  ozecocommands.baltop:
+    description: Allows viewing the balance leaderboard
+    default: true
+  ozecocommands.admin.add:
+    description: Allows adding money with /admineco add
+    default: op
+  ozecocommands.admin.remove:
+    description: Allows removing money with /admineco remove
+    default: op
