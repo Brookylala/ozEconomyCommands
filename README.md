@@ -2,6 +2,9 @@
 
 A lightweight Paper/Spigot economy command plugin that hooks into `ozanarchy-economy`.
 
+## ozanarchy-economy
+https://github.com/Brookylala/ozanarchy-economy
+
 ## Features
 
 - `/balance` for self and other-player balance checks
